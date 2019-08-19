@@ -11,54 +11,54 @@ const IndexLogin = () => {
             src="/docs/4.3/assets/brand/bootstrap-solid.svg"
             width="30"
             height="30"
-            class="d-inline-block align-top"
+            className="d-inline-block align-top"
             alt=""
           />
           GalvaBank
         </a>
       </nav>
       {/* FORM */}
-      <div class="text-center">
-        <form class="form-signin">
+      <div className="text-center">
+        <form className="form-signin">
           <img
-            class="mb-4"
+            className="mb-4"
             src="/docs/4.3/assets/brand/bootstrap-solid.svg"
             alt=""
             width="72"
             height="72"
           />
-          <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-          <label for="inputEmail" class="sr-only">
+          <h1 className="h3 mb-3 font-weight-normal">Please sign in</h1>
+          <label htmlFor="inputEmail" className="sr-only">
             Email address
           </label>
           <input
             type="email"
             id="inputEmail"
-            class="form-control"
+            className="form-control"
             placeholder="Email address"
             required
-            autofocus
+            autoFocus
           />
 
-          <label for="inputPassword" class="sr-only">
+          <label htmlFor="inputPassword" className="sr-only">
             Password
           </label>
           <input
             type="password"
             id="inputPassword"
-            class="form-control"
+            className="form-control"
             placeholder="Password"
             required
           />
-          <div class="checkbox mb-3">
+          <div className="checkbox mb-3">
             <label>
               <input type="checkbox" value="remember-me" /> Remember me
             </label>
           </div>
-          <button class="btn btn-lg btn-primary btn-block" type="submit">
+          <button className="btn btn-lg btn-primary btn-block" type="submit">
             Sign in
           </button>
-          <p class="mt-5 mb-3 text-muted">&copy;2019</p>
+          <p className="mt-5 mb-3 text-muted">&copy;2019</p>
         </form>
       </div>
     </div>
