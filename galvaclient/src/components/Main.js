@@ -6,7 +6,7 @@ const Main = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          <h4 className="hello-msg">Good Morning ?Name?</h4>
+          <h4 className="hello-msg">Hi ?Name?</h4>
           {/* Balance */}
           <div className="dash-card">
             <h5>Debit Card Balance</h5>
@@ -24,7 +24,7 @@ const Main = () => {
             <div class="form-group">
               <label htmlFor="receiverName">Receivers Name :</label>
               <select type="text" class="form-control" id="receiverName">
-                <option>Select Recever</option>
+                <option>Select</option>
                 <option>Mom</option>
                 <option>2</option>
               </select>
@@ -43,7 +43,7 @@ const Main = () => {
             <div className="dash-card">
               <h5>Recent Completed activity</h5>
               <div className="recent-activiy">
-                <div className="row">
+                <div className="row main-row">
                   <div className="col-md-2">
                     <b>Time:</b>
                   </div>
