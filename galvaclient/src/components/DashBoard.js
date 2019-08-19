@@ -1,9 +1,18 @@
 import React, { Component } from "react";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 
 class DashBoard extends Component {
   state = {};
   render() {
-    return <div>Dashboard</div>;
+    return (
+      <div style={{ background: "#f5f7fa", minHeight: "100vh" }}>
+        <Header />
+        <Main />
+        {/* <Footer /> */}
+      </div>
+    );
   }
 }
 

@@ -1,0 +1,15 @@
+.hello-msg {
+    margin-top: 20px;
+}
+
+.dash-card {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .1);
+}
+
+.row-activities {
+    padding: 5px;
+}
