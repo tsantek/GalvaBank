@@ -41,10 +41,10 @@ const Header = () => {
           </ul>
           <ul className="navbar-nav my-2 my-lg-0">
             <li className="nav-item">
-              <a className="nav-link">Settings </a>
+              <span className="nav-link">Settings </span>
             </li>
             <li className="nav-item">
-              <a className="nav-link">LOG OUT </a>
+              <span className="nav-link">LOG OUT </span>
             </li>
           </ul>
         </div>

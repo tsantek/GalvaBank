@@ -6,7 +6,7 @@ const IndexLogin = () => {
     <div className="wrapperLogin">
       {/* NAVBAR */}
       <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="#">
+        <span className="navbar-brand">
           <img
             src="/docs/4.3/assets/brand/bootstrap-solid.svg"
             width="30"
@@ -15,7 +15,7 @@ const IndexLogin = () => {
             alt=""
           />
           GalvaBank
-        </a>
+        </span>
       </nav>
       {/* FORM */}
       <div className="text-center">

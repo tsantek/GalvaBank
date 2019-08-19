@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import ShowHistory from "./ShowHistor";
+import ShowHistory from "./ShowHistory";
 
 class AccounstMain extends Component {
   constructor(props) {

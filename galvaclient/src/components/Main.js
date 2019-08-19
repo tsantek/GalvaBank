@@ -21,17 +21,17 @@ const Main = () => {
           {/* Quick Transfer */}
           <div className="dash-card">
             <h5>Quick Transfer</h5>
-            <div class="form-group">
+            <div className="form-group">
               <label htmlFor="receiverName">Receivers Name :</label>
-              <select type="text" class="form-control" id="receiverName">
+              <select type="text" className="form-control" id="receiverName">
                 <option>Select</option>
                 <option>Mom</option>
                 <option>2</option>
               </select>
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label htmlFor="amount">Amount:</label>
-              <input type="number" class="form-control" id="amount" />
+              <input type="number" className="form-control" id="amount" />
             </div>
             <input type="button" className="btn btn-success" value="SEND" />
             <form />
