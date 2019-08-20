@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/TransferForm.css";
+import "../../styles/transfer/TransferForm.css";
 
 const TransferForm = () => {
   return (

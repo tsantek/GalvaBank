@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "./Header";
-import AccounstMain from "./AccountsMain";
-import "../styles/AccountMain.css";
+import Header from "../header/Header";
+import "../../styles/accounts/AccountMain.css";
+import AccountsMain from "./AccountsMain";
 
 const Accounts = () => {
   return (
     <div className="main-container">
       <Header />
-      <AccounstMain />
+      <AccountsMain />
     </div>
   );
 };

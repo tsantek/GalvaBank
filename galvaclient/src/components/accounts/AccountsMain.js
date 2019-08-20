@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ShowHistory from "./ShowHistory";
+import ShowHistory from "../dashboard/ShowHistory";
 
 class AccounstMain extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/IndexLogin.css";
+import "../../styles/loginPage/IndexLogin.css";
 
 const IndexLogin = () => {
   return (
