@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../header/Header";
-import "../../styles/accounts/AccountMain.css";
 import AccountsMain from "./AccountsMain";
+
+import "../../styles/accounts/AccountMain.css";
 
 const Accounts = () => {
   return (
